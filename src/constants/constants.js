@@ -24,6 +24,25 @@ export const projects = [
     source: 'https://github.com/CrisGoDev/Discord_Clon',
     visit: 'https://discord-clon-98693.web.app/',
     id: 2,
+  },
+  {
+    title: 'Programa Contable',
+    description: "Este programa es un programa contable, pero esta hecho en java y es exclusivamente para desktop, se uso JAVA ant",
+      image: '/images/java.png',
+      tags: ['JAVA'],
+    source: 'https://gitlab.com/crisjar3/programa-contable',
+    visit: '',
+    id: 3,
+  }
+  ,
+  {
+    title: 'Programa Contable',
+    description: "Este programa esta desarrollado, con las tecnologia de .net en winforms",
+      image: '/images/Contable_Net.png',
+      tags: ['C#', '.NET'],
+    source: 'https://gitlab.com/Bryan_H/tareanetproyecttutorial',
+    visit: '',
+    id: 4,
   }
   
 ];

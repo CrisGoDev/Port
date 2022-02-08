@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend ,DiAngularSimple,DiMsqlServer,DiNodejs} from 'react-icons/di';
+import { DiFirebase, DiReact, DiZend ,DiAngularSimple,DiMsqlServer,DiNodejs,DiJava, DiJavascript} from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -29,6 +29,13 @@ const Technologies = () =>  (
       <ListItem>
         <picture>
           <DiFirebase size="3rem" />
+       </picture>
+
+       <picture>
+          <DiJava size="3rem" />
+       </picture>
+       <picture>
+          <DiJavascript size="3rem" />
        </picture>
        <picture>
        <DiNodejs size="3em"/>
