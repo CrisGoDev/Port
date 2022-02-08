@@ -45,7 +45,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>Acerca de Mi</SectionTitle>
       <SectionText>
-      Mi nombre es Cristhian Joel Gomez Jarquin, soy estudiante ingeniería de sistemas, un apasionado a la tecnología en general
+      Mi nombre es Cristhian Joel Gomez Jarquin,  un apasionado a la tecnología en general
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
