@@ -18,11 +18,9 @@ const Hero = (props) => (
         <SectionText>
         Soy estudiantes de ingeniería en sistemas con afición en el desarrollo de aplicaciones web
         </SectionText>
-        {/* <a href={require('../../resume/res.pdf')} download={res.pdf}>
-        <Button onClick={()=>{
-          
-        }} >Obten mi Cv</Button>
-        </a> */}
+        <form method='get' action='res.pdf' target='_blank'>
+          <Button>Descarga mi CV</Button>
+        </form>
 
       </LeftSection>
     </Section>
