@@ -52,7 +52,7 @@ export const Hr = styled.hr`
   height: 3px;
   margin: 20px auto;
   border: 0;
-  background: #d0bb57;
+  background: #00efff;
 `;
 
 export const Intro = styled.div`
@@ -89,14 +89,14 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-color:#d4c0c0;
+color:#fff;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: #6b3030;
+background: #05d6d9;
 border-radius: 15px;
 transition: 0.5s;
 &:hover{
-  background: #801414;
+  background: #27b7e0;
 
 }
 `;
