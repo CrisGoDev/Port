@@ -43,7 +43,35 @@ export const projects = [
     source: 'https://gitlab.com/Bryan_H/tareanetproyecttutorial',
     visit: '',
     id: 4,
+  },
+  {
+    title: 'Scrapper Amazon',
+    description: "Esta es una APi Donde se puede obetener la informacion de un producto, sus reviews, realizar una busqueda y encontrar relacionadas, Lee mas en el repo",
+      image: '/images/scr.png',
+      tags: ['Javascript', 'Express','Node'],
+    source: 'https://github.com/CrisGoDev/Amazon-Scrapper/tree/main',
+    visit: 'https://amazon-scrapper-godev.herokuapp.com/products/B087QRW81Z?api_key=0efe0388318ffc9b5d8426a72c08089c',
+    id: 5,
+  },
+  {
+    title: 'Clon de Google doc',
+    description: "Aca el punto era lograr desarrollar un documento que pudiera ser editado al mismo tiempo por varias personas y sus cambios se vayan guardando",
+      image: '/images/Docs.png',
+      tags: ['Javascript', 'Node','MongoDb','React','Socker.io'],
+    source: 'https://github.com/CrisGoDev/Google_docs-Clone',
+    visit: '',
+    id: 6,
+  },
+  {
+    title: 'Traductor',
+    description: "Un Traductor Que consume una Api",
+      image: '/images/trans.png',
+      tags: ['Javascript', 'Reac','Axios'],
+    source: 'https://github.com/CrisGoDev/Translate',
+    visit: 'https://main--delightful-figolla-b7d3ad.netlify.app/',
+    id: 7,
   }
+
   
 ];
 
