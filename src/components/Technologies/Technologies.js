@@ -50,7 +50,7 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experiencia en bases de datos SQl y nosql<br />
-            Asi como el entorno de .net para la creacion de .net y el uso de node.js
+            Asi como el entorno de .net para la creacion de apis y el uso de node.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
